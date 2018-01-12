@@ -36,7 +36,7 @@ export default class Snippetier {
       body: this.bodyLines
     };
 
-    fs.writeFileSync(this.snippetFilePath, Hjson.stringify(json, { quotes: 'all', separator: true}), 'utf8');
+    fs.writeFileSync(this.snippetFilePath, Hjson.stringify(json, { quotes: 'all', separator: true }), 'utf8');
   }
 
   private getPath(): string {
@@ -60,6 +60,26 @@ export default class Snippetier {
   }
 
   private parseBody(bodyString: string): Array<string> {
-    return bodyString.split(/\r?\n/);
+    let lines = bodyString.split(/\r?\n/);
+
+    const lineOffsets = lines.map(line => {
+      let offset = 0;
+      for (let i = 0; i < line.length; i++) {
+        if (line[i] == ' ') {
+          offset++;
+          continue;
+        }
+        break;
+      }
+      return offset;
+    });
+
+    const minOffset = Math.min(...lineOffsets);
+
+    if (minOffset > 0) {
+      lines = lines.map(line => line.slice(minOffset));
+    }
+
+    return lines;
   }
 }

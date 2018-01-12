@@ -31,7 +31,8 @@ export function activate(context: vscode.ExtensionContext) {
           const prefix = value;
           const snippetier = new Snippetier(context, textEditor.document.languageId, prefix, description, selectedText);
           try {
-            snippetier.saveSnippet();  
+            snippetier.saveSnippet();
+            vscode.window.showInformationMessage('The snippet has been created');
           } catch (error) {
             vscode.window.showErrorMessage('Error reading snippets file');
           }
