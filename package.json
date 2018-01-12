@@ -24,17 +24,17 @@
             "description": "License: MIT"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/version/dafanasev.vscode-snippetier.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/version/dafanasev.snippetier.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
             "description": "Version"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/installs/dafanasev.vscode-snippetier.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/installs/dafanasev.snippetier.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
             "description": "Installs"
         },
         {
-            "url": "https://vsmarketplacebadge.apphb.com/rating/dafanasev.vscode-snippetier.svg",
+            "url": "https://vsmarketplacebadge.apphb.com/rating/dafanasev.snippetier.svg",
             "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
             "description": "Ratings"
         }
