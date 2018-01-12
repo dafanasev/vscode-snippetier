@@ -2,19 +2,41 @@
     "name": "snippetier",
     "displayName": "Snippetier",
     "description": "Create code snippets from the editor selection",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "publisher": "dafanasev",
     "license": "MIT",
+    "icon": "img/logo.png",
     "engines": {
         "vscode": "^1.19.0"
     },
     "categories": [
-        "Languages",
         "Snippets",
         "Other"
     ],
     "keywords": [
-        "snippets"
+        "snippets", "generator"
+    ],
+    "badges": [
+        {
+            "url": "https://img.shields.io/badge/License-MIT-brightgreen.svg",
+            "href": "https://opensource.org/licenses/MIT",
+            "description": "License: MIT"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/dafanasev.vscode-snippetier.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
+            "description": "Version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/dafanasev.vscode-snippetier.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
+            "description": "Installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/dafanasev.vscode-snippetier.svg",
+            "href": "https://marketplace.visualstudio.com/items?itemName=dafanasev.snippetier",
+            "description": "Ratings"
+        }
     ],
     "activationEvents": [
         "onCommand:extension.createSnippet"
@@ -52,10 +74,14 @@
     "dependencies": {
         "hjson": "^3.1.0"
     },
+    "homepage": "https://github.com/dafanasev.snippetier/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dafanasev/vscode-snippetier.git"
+        "url": "https://github.com/dafanasev.snippetier.git"
     },
-    "homepage": "https://github.com/dafanasev/vscode-snippetier/blob/master/README.md"
+    "bugs": {
+        "url": "https://github.com/dafanasev/vscode-snippetier/issues",
+        "email": "dimarzio1986@gmail.com"
+    }
 
 }
