@@ -78,7 +78,7 @@
     "homepage": "https://github.com/dafanasev.snippetier/blob/master/README.md",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dafanasev.snippetier.git"
+        "url": "https://github.com/dafanasev/vscode-snippetier.git"
     },
     "bugs": {
         "url": "https://github.com/dafanasev/vscode-snippetier/issues",

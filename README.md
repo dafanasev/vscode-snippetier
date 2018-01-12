@@ -13,7 +13,7 @@ Create code snippets from the editor selection.
 Visual Studio Code command to create user code snippets from the editor selection without need to manually edit json files.
 
 
-![](img/snippetier.gif)
+![Usage](img/snippetier.gif)
 
 ## Release Notes
 
